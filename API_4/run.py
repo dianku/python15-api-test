@@ -4,6 +4,9 @@
 # @Email : 1171208366@qq.com
 # @function:
 
+import sys
+sys.path.append('./') #加到project根目录地址
+
 import unittest
 from API_4.testcases import test_login
 import HTMLTestRunnerNew
